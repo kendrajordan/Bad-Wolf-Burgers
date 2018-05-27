@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+.container{
+display: grid;
+grid-template-areas: "header header header"
+               "nav nav nav"
+              "order order order"
+              "hours hours hours"
+              "update update update"
+               "footer footer footer";
+
+width:auto;
+
+text-align: center;
+align-items:stretch;
+
+}
+header{
+  grid-area:header;
+font-family: 'Calligraffitti', cursive;
+font-size:40px;
+padding-bottom: 10px;
+background-color:#F1D269;
+position:relative;
+color:white;
+text-align:center;
+
+}
+header img{
+  height:100px;
+  width:100px;
+  position:relative;
+  top:20px;
+  left:12px;
+}
+nav{
+  grid-area: nav;
+background-color:#880000;
+height:30px;
+position:relative;
+padding-top:10px;
+padding-bottom: 20px;
+width:100%;
+
+}
+nav li{
+list-style: none;
+display:inline-block;
+font-size: 30px;
+padding-right: 100px;
+font-family: 'Lobster', cursive;
+color:white;
+}
+.order{
+grid-area: order;
+
+  background-image:url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/25443283_1629019533802808_990247028039134025_n.jpg?_nc_cat=0&oh=49d6f1e64aa255387307b5576e03ec45&oe=5B7F17BD);
+
+  background-repeat: no-repeat;
+    background-size:cover;
+height: auto;
+align-items:stretch;
+
+}
+.order button{
+background-color: #0d0d0d;
+color:white;
+padding:10px;
+border-radius: 5px;
+font-family: 'Cantata One', serif;
+font-size:25px;
+
+}
+.hours{
+  grid-area:hours;
+background-color:#F1D269;
+  background-repeat: no-repeat;
+  background-size:contain;
+
+
+}
+.update{
+grid-area:update;
+background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/23167605_1587272504644178_6825587066354667548_n.jpg?_nc_cat=0&oh=ddc6eb3edc4a343f46cab8cb2685f0b8&oe=5B7CE067);
+
+background-repeat: no-repeat;
+  background-size:cover;
+
+
+
+}
+.update iframe{
+position:relative;
+float:left;
+}
+.box{
+
+width:100%;
+height:500px;
+}
+.hours table{
+  background-color: #999999;
+  border-radius: 5px;
+  opacity: .75;
+  font-size: 25px;
+  position: relative;
+
+
+  text-align: center;
+}
+
+.hours table td{
+  background-color: white;
+}
+footer{
+
+  font-family: 'Actor', sans-serif;
+  background-color: #880000;
+  color:white;
+  display:inline-block;
+font-size:30px;
+font-weight:bold;
+  position:relative;
+text-align: center;
+width:1300px;
+margin-left:auto;
+margin-right:auto;
+
+}

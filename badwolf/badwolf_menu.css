@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+.container{
+display: grid;
+grid-template-areas: "header header header"
+               "nav nav nav"
+               "classic classic classic"
+               "signature signature signature"
+               "distinctive distinctive distinctive"
+               "sandwich sandwich sandwich"
+               "onion onion onion"
+               "kidmenu kidmenu kidmenu"
+               "footer footer footer";
+height:900px;
+width:auto;
+
+text-align: center;
+align-items:stretch;
+
+}
+
+.box{
+padding-bottom: 10px;
+
+background-color:#F1D269;
+
+}
+h2{
+  font-family: 'Kaushan Script', cursive;
+  background-color: #880000;
+  color:white;
+  display:inline-block;
+width:100%;
+position:relative;
+
+}
+header{
+  grid-area:header;
+font-family: 'Calligraffitti', cursive;
+font-size:40px;
+padding-bottom: 10px;
+background-color:#F1D269;
+position:relative;
+color:white;
+
+}
+header img{
+  height:100px;
+  width:100px;
+  position:relative;
+  top:20px;
+  left:12px;
+}
+nav{
+  grid-area: nav;
+background-color:#880000;
+height:30px;
+position:relative;
+padding-top:10px;
+padding-bottom: 20px;
+width:100%;
+
+}
+nav li{
+list-style: none;
+display:inline-block;
+font-size: 30px;
+padding-right: 100px;
+font-family: 'Lobster', cursive;
+color:white;
+}
+.classic{
+  grid-area:classic;
+
+}
+.classic li{
+  padding-top:10px;
+  list-style: none;
+  font-family: 'Actor', sans-serif;
+}
+.signature{
+  grid-area:signature;
+
+}
+.signature li{
+  padding-top:10px;
+  list-style:none;
+  font-family: 'Actor', sans-serif;
+}
+.distinctive{
+  grid-area:distinctive;
+}
+.distinctive li{
+  padding-top:10px;
+  list-style:none;
+  font-family: 'Actor', sans-serif;
+}
+.sandwich{
+  grid-area:sandwich;
+}
+.sandwich li{
+  padding-top:10px;
+  list-style:none;
+  font-family: 'Actor', sans-serif;
+}
+.onion{
+  grid-area:onion;
+}
+.onion li{
+  padding-top:10px;
+  list-style:none;
+  font-family: 'Actor', sans-serif;
+  Position:relative;
+
+}
+.kidmenu{
+  grid-area:kidmenu;
+}
+.kidmenu li{
+  padding-top:10px;
+  list-style: none;
+  font-family: 'Actor', sans-serif;
+}
+footer{
+
+  font-family: 'Actor', sans-serif;
+  background-color: #880000;
+  color:white;
+  display:inline-block;
+font-size:30px;
+font-weight:bold;
+  position:relative;
+text-align: center;
+width:1300px;
+margin-left:auto;
+margin-right:auto;
+
+}
